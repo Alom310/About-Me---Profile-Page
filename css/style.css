@@ -77,6 +77,17 @@ h2{
   background-color: black;
 }
 
+.wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrap a {
+  font-size: 30px;
+  padding:10px;
+}
+
 /* ----------------------------------------
 Nav
 ------------------------------------------- */
@@ -139,6 +150,7 @@ form {
   flex-direction: column;
   align-content: space-between;
   margin:0 100px;
+  max-width: 1200px;
 }
 
 input, textarea{
