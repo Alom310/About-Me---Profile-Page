@@ -165,7 +165,6 @@ form {
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  align-items: center;
   margin:50px;
 }
 
@@ -176,7 +175,6 @@ input, textarea{
   outline:0;
   background-color: #00000050;
   color:white;
-  width: 650px;
 }
 
 ::placeholder{
@@ -201,7 +199,6 @@ button {
   letter-spacing: .5em;
   transition: all .3s ease-in-out;
   font-family: raleway;
-  width: 650px;
 }
 
 button:hover {
@@ -372,6 +369,16 @@ Media queries
     color: white;
   }
 
+}
+
+@media only screen and (min-width: 675px){
+  form{
+    align-items: center;
+  }
+
+  input, textarea, button{
+    width: 650px;
+  }
 }
 
 @media only screen and (max-width:1025px){
