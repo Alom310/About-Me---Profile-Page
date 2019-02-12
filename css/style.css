@@ -140,8 +140,8 @@ Welcome Section
 ------------------------------------------- */
 
 #welcomepic{
-  width: 675px;
-  height: 450px;
+  max-width: 675px;
+  max-height: 450px;
 }
 
 #welcome {
@@ -291,6 +291,12 @@ Scroll
 /* ----------------------------------------
 Media queries
 ------------------------------------------- */
+@media only screen and (max-width: 400px){
+  #welcomepic{
+    width: 350px;
+    height: 234px;
+  }
+
 
 @media only screen and (max-width: 675px){
   #welcomepic{
