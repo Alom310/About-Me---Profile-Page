@@ -1,5 +1,10 @@
 body{
-  background-image: url("../images/AH.jpg");
+  background:
+  linear-gradient(
+      rgba(255, 255, 255, 0.50), 
+      rgba(255, 255, 255, 0.50)
+    ),
+  url("../images/AH.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,18 +27,9 @@ html{
 
 #about, #test{
   background-color: deepskyblue;
-  padding:auto 0;
-  height:500px;
+  padding:50px 0;
+  max-height:500px;
 }
-
-#about h2{
-  margin-top:125px;
-}
-
- #test h2{
-  margin-top:75px;
- }
-
 
 .wrapper {
   display: flex;
@@ -85,6 +81,11 @@ h2{
   background-color: black;
 }
 
+#projectImg{
+  width: 70%;
+  height: 400px;
+}
+
 .wrap{
   display: flex;
   flex-direction: column;
@@ -95,6 +96,18 @@ h2{
   font-size: 30px;
   padding:10px;
 }
+
+#mediaAbout p{
+  font-size: 20px;
+  width: 750px;
+}
+
+#projects{
+  margin-bottom: 30px;
+  min-height: 500px;
+}
+
+
 
 /* ----------------------------------------
 Nav
@@ -115,11 +128,11 @@ a:hover{
 
 li{
   list-style: none;
-  padding-top: 12px;
+  padding-top: 20px;
 }
 
 nav a{
-  display: inline-block;
+  /* display: inline-block; */
   padding:1em;
 }
 
@@ -222,13 +235,15 @@ blockquote {
 font-family: Georgia, serif;
 font-size: 18px;
 font-style: italic;
-width: 500px;
+width: 600px;
 margin: 0.25em 0;
 padding: 0.35em 40px;
 line-height: 1.45;
 position: relative;
 color: #383838;
 border-left: 0;
+margin-top:30px;
+margin-bottom: 70px;
 }
 
 blockquote:before {
@@ -295,6 +310,11 @@ Media queries
   #welcomepic{
     width: 350px;
     height: 234px;
+  }
+
+  #projects{
+    width:375px;
+    height:375px;
   }
 }
 
