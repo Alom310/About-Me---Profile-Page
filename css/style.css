@@ -1,10 +1,5 @@
 body{
-  background:
-  linear-gradient(
-      rgba(255, 255, 255, 0.50), 
-      rgba(255, 255, 255, 0.50)
-    ),
-  url("../images/AH.jpg");
+  background: url("../images/AHlogo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
