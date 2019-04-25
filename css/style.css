@@ -60,12 +60,6 @@ h2{
   font-family: raleway;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: black;
-  border-radius: 20%;
-}
-
 #projectImg{
   width: 80%;
   height: 400px;
