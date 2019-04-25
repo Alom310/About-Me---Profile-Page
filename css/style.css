@@ -60,29 +60,14 @@ h2{
   font-family: raleway;
 }
 
-.carousel-indicators li{
-  display:inline-block;
-  background-color: deepskyblue;
-  width: 20px;
-  height: 20px;
-  margin: 10px;
-  text-indent: 0;
-  cursor: pointer;
-  border: none;
-  border-radius: 50%;
-  background-color: deepskyblue;
-  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
-}
-
-.carousel-indicators .active {
-  width: 20px;
-  height: 20px;
-  margin: 10px;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   background-color: black;
+  border-radius: 20%;
 }
 
 #projectImg{
-  width: 70%;
+  width: 80%;
   height: 400px;
 }
 
@@ -98,15 +83,15 @@ h2{
 }
 
 #mediaAbout p{
-  font-size: 20px;
+  font-size: 18px;
   width: 750px;
+  text-indent: 1em;
 }
 
 #projects{
   margin-bottom: 30px;
   min-height: 500px;
 }
-
 
 
 /* ----------------------------------------
@@ -126,7 +111,7 @@ a:hover{
   color:white;
 }
 
-li{
+#menu_li{
   list-style: none;
   padding-top: 20px;
 }
