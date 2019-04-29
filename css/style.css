@@ -82,6 +82,60 @@ h2{
   min-height: 500px;
 }
 
+.carousel-item p{
+  display: inline-block;
+  background-color: #00000099;
+  color: white;
+  font-size: 20px;
+  width: 889px;
+}
+
+#myCarousel{
+  min-height: 500px;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  background-color: black;
+  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+  height:10px;
+  margin: 10px;
+  background-color: deepskyblue;
+}
+
+#test-carousel-indicators li {
+  display: inline-block;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  background-color: black;
+  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+#test-carousel-indicators .active {
+  height:10px;
+  margin: 10px;
+  background-color: white;
+}
+
+#carousel-control{
+  display: inline-block;
+  color: white;
+  font-size:25px;
+  background-color: black;
+  border-radius: 25%;
+  height: 35px;
+  width:30px;
+  
+}
 
 /* ----------------------------------------
 Nav
@@ -160,7 +214,7 @@ input, textarea{
   margin-bottom: 12px;
   padding: 10px 10px;
   outline:0;
-  background-color: #00000050;
+  background-color: #00000090;
   color:white;
 }
 
