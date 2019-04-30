@@ -11,11 +11,11 @@ if (isset($_POST['submit'])) {
     $mail->PORT=587;
     $mail->SMTPAuth=true;
     $mail->SMTPSecure='tls';
-    $mail->Username='alom310@gmail.com';
-    $mail->Password='Rigmola1234!';
+    $mail->Username='vandaleyindus@gmail.com';
+    $mail->Password='123456Sf';
 
     $mail->setFrom($_POST['email'],$_POST['name']);
-    $mail->addAddress('alom310@gmail.com');
+    $mail->addAddress('vandaleyindus@gmail.com');
 
     $mail->isHTML(true);
     $mail->Subject='Form Submission: '.$_POST['subject'];
