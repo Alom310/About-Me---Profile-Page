@@ -205,7 +205,7 @@ Welcome Section
 Form
 ------------------------------------------- */
 
-form {
+/* form {
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -224,13 +224,16 @@ input, textarea{
 ::placeholder{
   color:white;
   font-family: raleway;
-}
+} */
 
 /* ----------------------------------------
-Button
+Contact Button
 ------------------------------------------- */
+#contact{
+  height:300px;
+}
 
-button {
+#email-button {
   cursor: pointer;
   outline: 0;
   border: 2px solid deepskyblue;
@@ -245,7 +248,7 @@ button {
   font-family: raleway;
 }
 
-button:hover {
+#email-button:hover {
   background-color: deepskyblue;
   color: white;
   font-weight: 600;
@@ -509,9 +512,9 @@ Media queries
     align-items: center;
   }
 
-  input, textarea, button{
+  /* input, textarea, button{
     width: 650px;
-  }
+  } */
 }
 
 @media only screen and (max-width:1025px){
