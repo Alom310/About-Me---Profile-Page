@@ -3,7 +3,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100vh;
+  background-size: 100vw;
 }
 
 html{
@@ -452,7 +452,7 @@ Media queries
   -o-background-size: cover; 
   background-size: 100vw; 
   }
-  
+
   #welcomepic{
     width: 350px;
     height: 234px;
