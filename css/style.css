@@ -18,6 +18,9 @@ html{
   display: flex;
   justify-content: space-between;
   background-color: deepskyblue;
+  position: fixed;
+  width:100%;
+  z-index: 16;
 }
 
 #about{
@@ -61,6 +64,7 @@ h2{
 #headwrap h1{
   padding:0 20px;
   font-family: raleway;
+  font-size:30px
 }
 
 #projectImg{
@@ -148,7 +152,6 @@ h2{
 /* ----------------------------------------
 Nav
 ------------------------------------------- */
-
 a{
   text-decoration: none;
   color:black;
@@ -164,12 +167,11 @@ a:hover{
 
 #menu_li{
   list-style: none;
-  padding-top: 20px;
 }
 
 nav a{
-  /* display: inline-block; */
   padding:1em;
+  font-size: 18px;
 }
 
 .menu {
@@ -189,6 +191,7 @@ Welcome Section
 ------------------------------------------- */
 
 #welcomepic{
+  margin-top:70px;
   max-width: 675px;
   max-height: 450px;
 }
