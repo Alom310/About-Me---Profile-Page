@@ -11,7 +11,7 @@ html{
 }
 
 *{
-  font-family: arial;
+  font-family: raleway;
 }
 
 #headwrap{
@@ -249,6 +249,8 @@ button:hover {
   background-color: deepskyblue;
   color: white;
   font-weight: 600;
+  text-shadow: 0 0 10px black;
+
 }
 
 /* ----------------------------------------
@@ -433,7 +435,6 @@ Media queries
   .sidenav a:hover {
     color: white;
     text-shadow: 0 0 10px black;
-
   }
 
 }
