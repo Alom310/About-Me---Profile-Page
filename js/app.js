@@ -15,12 +15,11 @@ $(document).ready(function(){
 
 ////////////burger function//////////////
 function myFunction(x) {
-  x.classList.toggle("change");
+    x.classList.toggle("change");
 };
 
 $('.menu').on('click', function(){
     $('.sidenav').toggle('slow')
 });
 
-///////////testimonial slider/////////////
 

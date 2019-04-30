@@ -358,25 +358,18 @@ Scroll
 /* ----------------------------------------
 Media queries
 ------------------------------------------- */
-@media only screen and (max-width: 400px){
-  #welcomepic{
-    width: 350px;
-    height: 234px;
-  }
-
-  #projects{
-    width:375px;
-    height:375px;
-  }
-}
-
 @media only screen and (max-width: 800px){
   #welcomepic{
     width: 400px;
     height: 267px;
   }
 
-  #mediaAbout{
+  body{
+    background-size: contain;
+  }
+
+
+  #mediaAbout p{
     display: flex;
     flex-direction: column;
   }
@@ -431,16 +424,82 @@ Media queries
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 16px;
-  color: black;
+  color: white;
   display: block;
   transition: 0.3s;
-  background-color: #00000060;
+  background-color: #00000099;
 }
 
   .sidenav a:hover {
     color: white;
   }
 
+}
+
+@media only screen and (max-width: 400px){
+  #welcomepic{
+    width: 350px;
+    height: 234px;
+  }
+
+  #projects{
+    width:375px;
+    height:375px;
+  }
+
+  #welcome{
+    text-align: center;
+  }
+
+  #welcome h1{
+    font-size: 30px;
+  }
+
+  #mediaAbout p{
+    font-size:15px;
+    width:350px;
+  }
+
+  #projects{
+    margin-bottom: 0;
+  }
+
+  #projectImg{
+    width:100%;
+    height:200px;
+  }
+
+  #myCarousel{
+    min-height: 330px;
+  }
+
+  .bar1, .bar2, .bar3{
+    width: 30px;
+    height: 4px;
+  }
+
+  .carousel-item p{
+    font-size: 15px;
+    width: 350px;
+  }
+
+  #carousel-control{
+    margin-top:270px;
+  }
+
+  #test #carousel-control{
+    margin-top:400px;
+  }
+
+  
+  #testCarousel{
+    height: 460px;
+  }
+  
+  blockquote {
+    font-size: 12px;
+    width: 350px;
+    }  
 }
 
 @media only screen and (min-width: 675px){
