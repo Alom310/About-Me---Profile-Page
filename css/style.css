@@ -21,6 +21,7 @@ html{
   position: fixed;
   width:100%;
   z-index: 16;
+  height:32px;
 }
 
 #about{
@@ -33,6 +34,10 @@ html{
   background-color: deepskyblue;
   padding:30px 0;
   height: 430px;
+}
+
+#projects{
+  padding:30px 0;
 }
 
 .wrapper {
@@ -61,26 +66,16 @@ h2{
   color:white;
 }
 
-#headwrap h1{
+#headwrap h3{
   padding:0 20px;
   font-family: raleway;
-  font-size:30px
+  text-shadow: 0 0 10px black;
+  color:white;
 }
 
 #projectImg{
   width: 80%;
   height: 400px;
-}
-
-.wrap{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.wrap a {
-  font-size: 30px;
-  padding:10px;
 }
 
 #mediaAbout p{
@@ -152,26 +147,23 @@ h2{
 /* ----------------------------------------
 Nav
 ------------------------------------------- */
-a{
+nav a{
   text-decoration: none;
-  color:black;
   font-family: raleway;
   font-weight: 900;
   transition: all .3s ease-in-out;
-  font-size: 16px;
+  font-size: 18px;
+  color:black;
+  padding:1em;
 }
 
-a:hover{
-  color:white;
+nav a:hover{
+  color: white;
+  text-shadow: 0 0 10px black;
 }
 
 #menu_li{
   list-style: none;
-}
-
-nav a{
-  padding:1em;
-  font-size: 18px;
 }
 
 .menu {
@@ -266,6 +258,28 @@ footer{
   background-color: deepskyblue;
 }
 
+footer a{
+  text-decoration: none;
+  color:black;
+  transition: all .3s ease-in-out;
+  font-size: 16px;
+}
+
+footer a:hover{
+  color:white;
+  text-shadow: 0 0 10px black;
+}
+
+.wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wrap a {
+  font-size: 30px;
+  padding:10px;
+}
 
 /* ----------------------------------------
 Testimonials
