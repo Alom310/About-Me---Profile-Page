@@ -447,7 +447,7 @@ Media queries
 
 @media only screen and (max-width: 475px){
   body{
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center center;
   background-attachment: fixed;
   -webkit-background-size: cover;
