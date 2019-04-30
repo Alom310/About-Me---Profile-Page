@@ -446,15 +446,15 @@ Media queries
 }
 
 @media only screen and (max-width: 475px){
-  /* body{
-  background-repeat: no-repeat;
+  body{
+  background-repeat: repeat;
   background-position: center center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; 
-  background-size: 100vw; 
-  } */
+  background-size: 100%; 
+  }
 
   #welcomepic{
     width: 350px;
