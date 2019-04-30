@@ -424,27 +424,28 @@ Media queries
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 16px;
-  color: white;
+  color: black;
   display: block;
   transition: 0.3s;
-  background-color: #00000099;
+  background-color: #00bfff99;
 }
 
   .sidenav a:hover {
     color: white;
+    text-shadow: 0 0 10px black;
+
   }
 
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 475px){
   #welcomepic{
     width: 350px;
     height: 234px;
   }
 
   #projects{
-    width:375px;
-    height:375px;
+    /* width:375px; */
   }
 
   #welcome{
@@ -480,7 +481,7 @@ Media queries
 
   .carousel-item p{
     font-size: 15px;
-    width: 350px;
+    width: 100%;
   }
 
   #carousel-control{
