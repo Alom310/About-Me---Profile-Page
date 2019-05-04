@@ -7,20 +7,41 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100vh;
+  height: 100%;
 }
 
 html{
   scroll-behavior: smooth;
+  height: 100%;
 }
+
+.type-writer-container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 10px black;
+}
+
 
 *{
   font-family: raleway;
 }
 
+.show {
+  background: deepskyblue;
+}
+
+.transition {    
+  -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
 #headwrap{
   display: flex;
   justify-content: space-between;
-  background-color: deepskyblue;
   position: fixed;
   width:100%;
   z-index: 16;
@@ -144,12 +165,105 @@ h2{
   border-radius: 25%;
   height: 35px;
   width:30px;
-  
 }
 
-#git-icon{
-  color:white;
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
 }
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+/* ----------------------------------------
+Typewriter Animation
+------------------------------------------- */
+.line-1{
+  position: relative;
+  top: 50%;  
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 4vh;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+            blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 34em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+
+/* ----------------------------------------
+Cards
+------------------------------------------- */
+.card-body{
+  background-color: deepskyblue;
+}
+
+.card-title{
+  text-shadow: 0 0 10px black;
+  color: white;
+}
+
+#card-icon{
+  color:black;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+#card-icon:hover{
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+/* .card-img-top{
+  width:290px;
+  height:150px;
+} */
 
 /* ----------------------------------------
 Nav
@@ -380,6 +494,10 @@ Media queries
     background-size: contain;
   }
 
+  .display-3{
+    font-size:40px;
+  }
+
 
   #mediaAbout p{
     display: flex;
@@ -460,6 +578,10 @@ Media queries
   background-size: 100%; 
   }
 
+  .line-1{
+    font-size: 13px;
+  }
+
   #welcomepic{
     width: 350px;
     height: 234px;
@@ -508,7 +630,6 @@ Media queries
   #test #carousel-control{
     margin-top:400px;
   }
-
   
   #testCarousel{
     height: 460px;
