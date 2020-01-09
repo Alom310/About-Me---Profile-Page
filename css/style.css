@@ -293,6 +293,11 @@ Typewriter Animation
 /* ----------------------------------------
 Cards
 ------------------------------------------- */
+.card:hover{
+  transition: transform .3s;
+  transform: translateY(-10px) scale(1.03);
+}
+
 .card-body{
   background: linear-gradient(-180deg,#34d058,#28a745 90%);
 }
