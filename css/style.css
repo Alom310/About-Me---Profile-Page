@@ -203,6 +203,10 @@ header {
   text-shadow: 0 0 10px black;
 }
 
+section{
+  border-radius: 10px;
+}
+
 @keyframes moveInLeft {
   0%{
       opacity: 0;
@@ -442,6 +446,7 @@ Footer
 footer{
   background: linear-gradient(-180deg,#34d058,#28a745 90%);
   margin:0 20px;
+  border-radius: 10px 10px 0 0;
 }
 
 footer a{
