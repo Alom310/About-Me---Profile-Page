@@ -1,0 +1,22 @@
+#email-button {
+    cursor: pointer;
+    outline: 0;
+    border: 2px solid #34d058;
+    color: black;
+    padding: 8px 25px;
+    background-color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: .5em;
+    transition: all .3s ease-in-out;
+    font-family: raleway;
+}
+
+#email-button:hover {
+    background: linear-gradient(-180deg,#34d058,#28a745 90%);
+    color: white;
+    font-weight: 600;
+    text-shadow: 0 0 10px black;
+    text-decoration: none;
+}

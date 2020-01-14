@@ -1,0 +1,47 @@
+#myCarousel{
+    min-height: 500px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+
+.carousel-indicators .active {
+    height:10px;
+    margin: 10px;
+    background: linear-gradient(-180deg,#34d058,#28a745 90%);
+}
+
+#test-carousel-indicators li {
+    display: inline-block;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+
+#test-carousel-indicators .active {
+    height:10px;
+    margin: 10px;
+    background-color: white;
+}
+
+#carousel-control{
+    display: inline-block;
+    color: white;
+    font-size:25px;
+    background-color: black;
+    border-radius: 25%;
+    height: 35px;
+    width:30px;
+}

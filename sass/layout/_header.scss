@@ -1,0 +1,40 @@
+header {
+  position: relative;
+  height: 50%;
+  width: 100%;
+  overflow: hidden;
+  background-image: 
+  /* linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8) ), */
+    url(../images/header_img.jpg);
+  background-repeat: no-repeat;
+}
+
+.header__text-box{
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.heading-primary--main{
+  display: block;
+  font-size: 60px;
+  font-weight:400;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  text-shadow: 0 0 10px black;
+}
+
+.heading-primary--sub{
+  display: block;
+  font-size: 30px;
+  font-weight:700;
+  animation: moveInRight 1s ease-out;
+  text-shadow: 0 0 10px black;
+}

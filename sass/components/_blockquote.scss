@@ -1,0 +1,35 @@
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    font-style: italic;
+    width: 600px;
+    margin: 0.25em 0;
+    padding: 20px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+    border-left: 0;
+    margin-bottom: 70px;
+    }
+    
+    blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #000000;
+    }
+    
+    blockquote cite {
+    color: #000000;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    }
+    
+    blockquote cite:before {
+    content: "\2014 \2009";
+    }

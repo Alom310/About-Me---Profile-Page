@@ -1,0 +1,31 @@
+nav a{
+    text-decoration: none;
+    font-family: raleway;
+    font-weight: 900;
+    transition: all .3s ease-in-out;
+    font-size: 18px;
+    color:black;
+    padding:1em;
+}
+
+nav a:hover{
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+#menu_li, #menu_li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+}
+
+.sidenav {
+    display:none;
+}
+
+.sidenav a{
+    display: none;
+}
