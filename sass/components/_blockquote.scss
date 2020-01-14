@@ -1,31 +1,31 @@
 blockquote {
     font-family: Georgia, serif;
-    font-size: 15px;
+    font-size: 1.7rem;
     font-style: italic;
-    width: 600px;
-    margin: 0.25em 0;
-    padding: 20px;
+    width: 60rem;
+    margin: 0.25rem 0;
+    padding: 2rem;
     line-height: 1.45;
     position: relative;
     color: #383838;
     border-left: 0;
-    margin-bottom: 70px;
+    margin-bottom: 7rem;
     }
     
     blockquote:before {
     display: block;
-    padding-left: 10px;
+    padding-left: 1rem;
     content: "\201C";
-    font-size: 80px;
+    font-size: 8rem;
     position: absolute;
-    left: -20px;
-    top: -20px;
+    left: -2rem;
+    top: -2rem;
     color: #000000;
     }
     
     blockquote cite {
     color: #000000;
-    font-size: 14px;
+    font-size: 1.4rem;
     display: block;
     margin-top: 5px;
     }

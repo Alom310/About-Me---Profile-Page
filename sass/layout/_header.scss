@@ -23,18 +23,18 @@ header {
 
 .heading-primary--main{
   display: block;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight:400;
   animation-name: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out;
-  text-shadow: 0 0 10px black;
+  text-shadow: 0 0 1rem black;
 }
 
 .heading-primary--sub{
   display: block;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight:700;
   animation: moveInRight 1s ease-out;
-  text-shadow: 0 0 10px black;
+  text-shadow: 0 0 1rem black;
 }

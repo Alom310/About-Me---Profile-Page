@@ -3,30 +3,32 @@ body {
 }
 
 h2{
+    font-size: 4rem;
     text-align: center;
     font-family: raleway;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 1rem black;
     color:white;
     text-align: center;
 }
 
 #headwrap h3{
-    padding:0 20px;
+    font-size: 2.5rem;
+    padding:0 2rem;
     font-family: raleway;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 1rem black;
     color:white;
 }
 
 #mediaAbout p{
-    font-size: 18px;
-    width: 750px;
-    text-indent: 1em;
+    font-size: 2rem;
+    width: 75rem;
+    text-indent: 1rem;
 }
 
 .carousel-item p{
     display: inline-block;
     background-color: #00000099;
     color: white;
-    font-size: 20px;
-    width: 889px;
+    font-size: 2rem;
+    width: 90rem;
 }

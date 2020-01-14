@@ -4,27 +4,29 @@
 }
 
 .card-body{
+  font-size: 1.6rem;
   background: linear-gradient(-180deg,#34d058,#28a745 90%);
 }
 
 .card-title{
-  text-shadow: 0 0 10px black;
+  font-size: 2rem;
+  text-shadow: 0 0 1rem black;
   color: white;
 }
 
 #card-icon{
   color:black;
-  font-size: 28px;
+  font-size: 3rem;
   text-decoration: none;
 }
 
 #card-icon:hover{
   color: white;
-  text-shadow: 0 0 10px black;
+  text-shadow: 0 0 1rem black;
 }
 
 .card-img-top{
   background-size: cover;
-  height: 200px;
+  height: 20rem;
 }
 
