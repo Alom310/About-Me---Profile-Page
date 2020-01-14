@@ -1,5 +1,5 @@
 .show {
-  background: linear-gradient(-180deg, #34d058, #28a745 90%); }
+  background: linear-gradient(-180deg, #c3e9ff, #63ceff 100%); }
 
 .transition {
   -webkit-transition: all 0.5s ease-in-out;
@@ -62,7 +62,7 @@
   border-bottom-color: #ffffff; }
 
 #scroll:hover {
-  background: linear-gradient(-180deg, #34d058, #28a745 90%);
+  background: linear-gradient(-180deg, #c3e9ff, #63ceff 100%);
   opacity: 1;
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)";
@@ -78,7 +78,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
-  background-image: linear-gradient(#313131, #818181); }
+  background-color: #fff; }
 
 html {
   scroll-behavior: smooth;
@@ -170,7 +170,7 @@ blockquote cite:before {
 #email-button {
   cursor: pointer;
   outline: 0;
-  border: 2px solid #34d058;
+  border: 2px solid #63ceff;
   color: black;
   padding: 1rem 2.5rem;
   background-color: transparent;
@@ -182,7 +182,7 @@ blockquote cite:before {
   font-family: raleway; }
 
 #email-button:hover {
-  background: linear-gradient(-180deg, #34d058, #28a745 90%);
+  background: linear-gradient(-180deg, #c3e9ff, #63ceff 100%);
   color: white;
   font-weight: 600;
   text-shadow: 0 0 1rem black;
@@ -194,7 +194,7 @@ blockquote cite:before {
 
 .card-body {
   font-size: 1.6rem;
-  background: linear-gradient(-180deg, #34d058, #28a745 90%); }
+  background: linear-gradient(-180deg, #c3e9ff, #63ceff 100%); }
 
 .card-title {
   font-size: 2rem;
@@ -227,7 +227,7 @@ blockquote cite:before {
 .carousel-indicators .active {
   height: 1rem;
   margin: 1rem;
-  background: linear-gradient(-180deg, #34d058, #28a745 90%); }
+  background: linear-gradient(-180deg, #c3e9ff, #63ceff 100%); }
 
 #test-carousel-indicators li {
   display: inline-block;
@@ -281,6 +281,8 @@ nav a:hover {
 
 footer {
   font-size: 2rem;
+  border: 3px solid #63ceff;
+  background-image: linear-gradient(#313131, #818181);
   margin: 0 2rem; }
 
 footer h5 {
@@ -346,32 +348,32 @@ header {
   height: 3.2rem; }
 
 #about {
-  background: linear-gradient(-180deg, #34d058, #28a745 90%);
+  background: linear-gradient(-180deg, #c3e9ff, #63ceff 100%);
   padding: 3rem 0;
   height: 60rem;
-  margin: 2rem; }
+  margin: 2rem 2rem 0 2rem;
+  border-radius: 5px 5px 0 0; }
 
 #about-pic {
   width: 30%;
   border-radius: 5px; }
 
 #test {
-  background: linear-gradient(-180deg, #34d058, #28a745 90%);
+  background: linear-gradient(-180deg, #c3e9ff, #63ceff 100%);
   padding: 3rem 0;
   height: 50rem;
-  margin: 2rem; }
+  margin: 0 2rem; }
 
 #projects {
   padding: 3rem 0;
-  margin: 2rem;
-  min-height: 50rem; }
+  margin: 0 2rem;
+  min-height: 50rem;
+  border: 3px solid #63ceff;
+  background-image: linear-gradient(#313131, #818181); }
 
 #contact {
   height: 30rem;
   margin: 2rem; }
-
-section {
-  border-radius: 5px; }
 
 /* ----------------------------------------
 Media queries
