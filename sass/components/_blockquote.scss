@@ -4,19 +4,23 @@ blockquote {
     font-style: italic;
     width: 60rem;
     margin: 0.25rem 0;
-    padding: 2rem;
+    padding:3rem;
     line-height: 1.45;
     position: relative;
     color: #383838;
     border-left: 0;
     margin-bottom: 7rem;
+    background-color: lightgray;
+    border-radius: .5rem;
+    box-shadow: 0 1.5rem 4rem #00000025;
     }
     
     blockquote:before {
     display: block;
-    padding-left: 1rem;
+    padding: 1rem;
+    margin: -8px 0 0 1rem;
     content: "\201C";
-    font-size: 8rem;
+    font-size: 7rem;
     position: absolute;
     left: -2rem;
     top: -2rem;

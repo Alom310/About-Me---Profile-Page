@@ -176,9 +176,8 @@ Media queries
     }
 
     blockquote {
-        font-size: 12px;
-        width: 325px;
-        }
+        width: 300px;
+    }
 
         #contact h5{
         font-size:15px;
@@ -197,11 +196,11 @@ Media queries
 
 @media only screen and (max-width:1025px){
     blockquote {
-        font-size: 14px;
+        font-size: 1.3rem;
     }
 
     blockquote:before {
-        font-size: 50px;
+        font-size: 6rem;
         margin-left: 10px;
     }
 
