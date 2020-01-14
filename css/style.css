@@ -369,7 +369,7 @@ Media queries
 @media only screen and (max-width: 800px) {
   #about-pic {
     /* width: 400px;
-      height: 267px; */
+        height: 267px; */
     width: 70%; }
   body {
     background-size: contain; }
@@ -434,10 +434,6 @@ Media queries
     font-size: 40px; }
   .heading-primary--sub {
     font-size: 15px; }
-  #welcomepic {
-    /* width: 350px;
-      height: 234px; */
-    width: 70%; }
   #welcome {
     text-align: center; }
   #welcome h1 {
@@ -466,7 +462,7 @@ Media queries
     height: 460px; }
   blockquote {
     font-size: 12px;
-    width: 350px; }
+    width: 325px; }
   #contact h5 {
     font-size: 15px; } }
 
@@ -474,8 +470,8 @@ Media queries
   form {
     align-items: center; }
   /* input, textarea, button{
-      width: 650px;
-    } */ }
+    width: 650px;
+} */ }
 
 @media only screen and (max-width: 1025px) {
   blockquote {
